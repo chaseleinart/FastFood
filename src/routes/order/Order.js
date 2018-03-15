@@ -23,7 +23,6 @@ class Order extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <p />
         </div>
 
         <Iframe
@@ -36,6 +35,13 @@ class Order extends React.Component {
           position="relative"
           allowFullScreen
         />
+
+
+        <div className={s.sendOrderDetails}>
+          <h1>Send us your order details!</h1>
+
+        </div>
+
 
         {/* https://delivery.panerabread.com/ */}
         {/* https://order.chipotle.com/    this doesn't work in iframe */}

@@ -1,0 +1,51 @@
+:PROPERTIES:
+#+PROPERTY: board-name FastFood
+#+PROPERTY: board-id 5a8635c3b8ea718980a9b4c1
+#+PROPERTY: Done 5a8635c3b8ea718980a9b4c4
+#+PROPERTY: Doing 5a8635c3b8ea718980a9b4c3
+#+PROPERTY: To-Do 5a8635c3b8ea718980a9b4c2
+#+TODO: To-Do Doing | Done
+#+PROPERTY: orgtrello-user-chaseleinart 59fb9805f65f1b1508165641
+#+PROPERTY: :purple
+#+PROPERTY: :blue
+#+PROPERTY: :red
+#+PROPERTY: :yellow
+#+PROPERTY: :green
+#+PROPERTY: :orange
+#+PROPERTY: orgtrello-user-me chaseleinart
+:END:
+* To-Do Create mockups of pc and mobile site design
+  :PROPERTIES:
+  :orgtrello-id: 5a8635d945327e789bd825fd
+  :orgtrello-local-checksum: 6c1a182c495548bb51132ed1e2d66562044b1d67ea2414bf5873a30977a1536b
+  :END:
+
+* To-Do design database model for mongodb
+  :PROPERTIES:
+  :orgtrello-id: 5a8635e6c57c9cf84f08569a
+  :orgtrello-local-checksum: 8d0af297a6e62cf4ac1a2dcb0768fb242d6de024b16d2f10ec828ab07c6f452b
+  :END:
+
+* To-Do create skeleton react app for ui
+  :PROPERTIES:
+  :orgtrello-id: 5a8636248ebce7e6347c020e
+  :orgtrello-local-checksum: b0a9669d8ea520ed87154ed2fc78d8ca02030f92d0e5d2b99ad8cb7def881c22
+  :END:
+
+* To-Do create food api for available restaurants
+  :PROPERTIES:
+  :orgtrello-id: 5a863638617942cc9a7832f7
+  :orgtrello-local-checksum: 48842bd3812d66d7c2dbe3e3b9d4edbd6d3f93a23eb3332a3b395df73080d2cb
+  :END:
+
+* To-Do create google places api to display available options locally
+ 
+ :PROPERTIES:
+  :orgtrello-id: 5a863647d2cf947becb12ae0
+  :orgtrello-local-checksum: cf665b09a1d11dbc1dd31f9c6c36535f7a4ab4787a9db5b17f9408feb67dc122
+  :END:
+
+  :PROPERTIES:
+  :orgtrello-id: 5a91815e76db22eff3ffd402
+  :orgtrello-local-checksum: 3bbe2ac20563cf817770293412ed1a6b39bde15971213a4b5fb632329801316f
+  :END:
