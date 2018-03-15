@@ -11,9 +11,9 @@ import React from 'react';
 import Iframe from 'react-iframe';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from './Order.css';
+import s from './Deliveries.css';
 
-class Order extends React.Component {
+class Deliveries extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
   };
@@ -23,6 +23,7 @@ class Order extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
+          <p />
         </div>
 
         <Iframe
@@ -36,10 +37,6 @@ class Order extends React.Component {
           allowFullScreen
         />
 
-        <div className={s.sendOrderDetails}>
-          <h1>Send us your order details!</h1>
-        </div>
-
         {/* https://delivery.panerabread.com/ */}
         {/* https://order.chipotle.com/    this doesn't work in iframe */}
         {/* https://order.subway.com       this doesn't work in iframe */}
@@ -48,4 +45,4 @@ class Order extends React.Component {
   }
 }
 
-export default withStyles(s)(Order);
+export default withStyles(s)(Deliveries);
