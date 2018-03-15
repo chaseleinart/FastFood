@@ -42,6 +42,10 @@ const routes = {
       load: () => import(/* webpackChunkName: 'privacy' */ './privacy'),
     },
     {
+      path: '/order',
+      load: () => import(/* webpackChunkName: 'order' */ './order'),
+    },
+    {
       path: '/admin',
       load: () => import(/* webpackChunkName: 'admin' */ './admin'),
     },
