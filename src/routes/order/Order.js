@@ -36,12 +36,9 @@ class Order extends React.Component {
           allowFullScreen
         />
 
-
         <div className={s.sendOrderDetails}>
           <h1>Send us your order details!</h1>
-
         </div>
-
 
         {/* https://delivery.panerabread.com/ */}
         {/* https://order.chipotle.com/    this doesn't work in iframe */}
