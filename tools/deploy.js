@@ -25,9 +25,9 @@ import run from './run';
 // Heroku
 const remote = {
   name: 'heroku',
-  url: 'https://git.heroku.com/shielded-brushlands-79993..git',
+  url: 'https://git.heroku.com/fast-food-delivery.git',
   branch: 'master',
-  website: 'https://shielded-brushlands-79993.herokuapp.com',
+  website: 'https://fast-food-delivery.herokuapp.com',
 };
 
 // Azure Web Apps
