@@ -12,6 +12,8 @@ import Iframe from 'react-iframe';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Order.css';
+import { Input, TextArea, FormBtn } from "../../components/Form";
+
 
 class Order extends React.Component {
   static propTypes = {
@@ -38,6 +40,13 @@ class Order extends React.Component {
 
         <div className={s.sendOrderDetails}>
           <h1>Send us your order details!</h1>
+          <br/>
+          <form>
+            <Input name="customerName" placeholder="Your full name" />
+            <Input name="orderLocation" placeholder="Your Order Location" />
+            <TextArea name="orderDetails" placeholder="Details of your order" />
+            <FormBtn>Send Order</FormBtn>
+          </form>
         </div>
 
         {/* https://delivery.panerabread.com/ */}
